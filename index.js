@@ -26,19 +26,3 @@ if(f<g){
 }else{
     console.log(g+f/2)
 }
-
-
-const data ={
-    name:'luther'
-    surname:'kai'
-    email:'kaiking@gmail'
-    address:'kumba'
-    age:'40'
-
-}
-const lutherName= data.name
-const lutherSurname=data.surname
-const lutherEmail=data.email
-const lutherAddress=data.address
-const lutherAge=data.age
-console.log(lutherName+lutherSurname+lutherEmail+lutherAddress+lutherAge)
