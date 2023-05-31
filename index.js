@@ -1,12 +1,18 @@
-const a = 2;
-const b = 6;
-const result=(a+b)
-console.log(result);
+const a = 16;
+const b = 8;
+
+const sum = a+b
+const diff = a-b
+if(a===8 || b===8 || sum===8 || diff===8){
+    console.log(true)
+}else{
+    console.log(fals)
+}
 
 
 var first = "my name is first ";
 var second = "my name is second";
-console.log(first+second)
+console.log(first+' ,' +second)
 
 
 const c = 4
