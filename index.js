@@ -12,7 +12,7 @@ if(a===8 || b===8 || sum===8 || diff===8){
 
 var first = "my name is first ";
 var second = "my name is second";
-console.log(first+' ,' +second)
+console.log(first +' ,' + second)
 
 
 const c = 4
@@ -32,3 +32,18 @@ if(f<g){
 }else{
     console.log(g+f/2)
 }
+
+const mukete = {
+    name: 'magna',
+    surname: 'muke',
+    email:'kaiking.fr',
+    address:'kumba',
+    age:26
+};
+console.log(mukete)
+ if('magna does not have a driver license'){
+    console.log('does not have a driver license')
+ }else{
+    console.log(false)
+ }
+
