@@ -33,6 +33,16 @@ if(f<g){
     console.log(g+f/2)
 }
 
+/* EXERCISE 2
+Create an object containing your name, surname, email address and age.
+*/
+
+/* WRITE YOUR CODE HERE */
+
+/* EXERCISE 3
+Add to the previously created object a boolean value to rappresent wheter you have or not a driving license.
+*/
+
 const mukete = {
     name: 'magna',
     surname: 'muke',
@@ -47,3 +57,20 @@ console.log(mukete)
     console.log(false)
  }
 
+
+/*Create an object representing a car with properties like brand, model, licensePlate.
+After you create the first car, clone it 5 times and change the licensePlate for each cloned car without affecting the original one.
+*/
+
+const carProperties= {
+    brand: 'mercedes',
+    model: 'Glk',
+    licensePlate: 34567,
+
+}
+console.log(carProperties)
+
+
+const cars= ['mercedes', 'bmw', 'lexus', 'suzuki'];
+
+console.log(cars)
