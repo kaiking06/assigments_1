@@ -75,4 +75,8 @@ const cars= ['mercedes', 'bmw', 'lexus', 'suzuki'];
 console.log(cars)
 
 const animals= ['goat', 'sheep', 'dog', 'cat', 'duck', 'chiken'];
-console.log(animals.splice(4, 1, 'fowl'))
+console.log(animals)
+
+animals.pop()
+animals.shift()
+console.log(animals)
