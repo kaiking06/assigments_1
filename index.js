@@ -62,21 +62,43 @@ console.log(mukete)
 After you create the first car, clone it 5 times and change the licensePlate for each cloned car without affecting the original one.
 */
 
-const carProperties= {
-    brand: 'mercedes',
-    model: 'Glk',
-    licensePlate: 34567,
+const cars ={
+    brand:'toyota',
+    model:'2007',
+    licensplate:'az',
+ }
+ console.log('toyota')
 
-}
-console.log(carProperties)
+ //spread operator method for cloning
+ const Car1 ={...cars, licensplate:'az'}
+ 
+ 
 
-const cars= ['mercedes', 'bmw', 'lexus', 'suzuki'];
 
-console.log(cars)
+/* WRITE YOUR CODE HERE */
 
-const animals= ['goat', 'sheep', 'dog', 'cat', 'duck', 'chiken'];
-console.log(animals)
+/* EXERCISE 9
+Create a new array called carsForRent containing all the cars from the previous exercise.
+*/
 
-animals.pop()
-animals.shift()
-console.log(animals)
+/* WRITE YOUR CODE HERE */
+
+
+
+/* EXERCISE 10
+Remove the first and the last car from the carsForRent array.
+*/
+/* EXERCISE 11
+Print in the console the TYPES of the car variable, of its licensePlate and of the its brand properties.
+*/
+/* EXERCISE 1
+Write a function "area" which receives 2 parameters (l1,l2) and calculates the area of the associated rectangle.
+*/
+
+/* EXERCISE 2
+Write a function "crazySum" which receives two integers. It should return the sum of those two values, but if the two values are the same then it should return their sum multiplied by 3.
+*/
+
+/* EXERCISE 3
+Write a function "crazyDiff" that computes the absolute difference between a given number and 19. 
+It should return triple their absolute difference if
