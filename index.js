@@ -1,104 +1,62 @@
-const a = 16;
-const b = 8;
+//Array
 
-const sum = a+b
-const diff = a-b
-if(a===8 || b===8 || sum===8 || diff===8){
-    console.log(true)
-}else{
-    console.log(fals)
+//const students=['luther','jerry','mende','rosemary']
+
+//students[0]='king'
+//console.log(students)
+
+const towns= ['kumba','limbe','tiko','buea']
+//console.log(towns)
+
+towns[2]='douala'
+console.log(towns)
+
+towns[4]= 'matoh';
+console.log(towns)
+
+
+const cars= ['rav4', 'mercedes', 'bmw'];
+cars.map((item)=>1)
+
+function crazySum(a,b) {
+    const sum =a + b;
+    if(a===b){
+        return 3*sum
+    }else{return sum}
 }
+console.log(crazySum(2,4));
+
+const array1 = [1, 4, 9, 16];
+const map1 = array1.map(x => x * 2);
+console.log(map1)
 
 
-var first = "my name is first ";
-var second = "my name is second";
-console.log(first +' ,' + second)
+const  input = [
+    { name: "John", age: 21, city: "New York" },
+    { name: "Mike", age: 28, city: "Moscow" },
+    { name: "Danny", age: 30, city: "London" },
+    { name: "Lisa", age: 26, city: "Paris" },
+    { name: "Sophie", age: 19,},
+  ];
+  /*
+  const newData = input.map(({name, age}) => ({[name]: age}));
+  console.log(newData)
 
-
-const c = 4
-const d = 5
-const e = 7
-if(c===4 && d===5 && e===7){
-    console.log(true)
-}else{
-    console.log(false)
-}
-
-
-const g = 1
-const f = 3
-if(f<g){
-    console.log(g+f)
-}else{
-    console.log(g+f/2)
-}
-
-/* EXERCISE 2
-Create an object containing your name, surname, email address and age.
+  const result = input.filter(item => item.city==='Paris' );
+console.log(result);
 */
 
-/* WRITE YOUR CODE HERE */
+const array2 = [22, 33, 44, 55];
+const map2 = array2.map((items)=>items *70);
+console.log(map2);
 
-/* EXERCISE 3
-Add to the previously created object a boolean value to rappresent wheter you have or not a driving license.
-*/
+const array3 = ['spray', 'limit', 'elite', 'exuberant', 'destruction', 'present'];
+const map3 = array3.filter((items)=>items.length> 3);
+console.log(map3);
 
-const mukete = {
-    name: 'magna',
-    surname: 'muke',
-    email:'kaiking.fr',
-    address:'kumba',
-    age:26
-};
-console.log(mukete)
- if('magna does not have a driver license'){
-    console.log('does not have a driver license')
- }else{
-    console.log(false)
- }
+const array4 = ['phone', 'television', 'fan','plate'];
+array4.map((item)=>item);
 
 
-/*Create an object representing a car with properties like brand, model, licensePlate.
-After you create the first car, clone it 5 times and change the licensePlate for each cloned car without affecting the original one.
-*/
-
-const cars ={
-    brand:'toyota',
-    model:'2007',
-    licensplate:'az',
- }
- console.log('toyota')
-
- //spread operator method for cloning
- const Car1 ={...cars, licensplate:'az'}
- 
- 
-
-
-/* WRITE YOUR CODE HERE */
-
-/* EXERCISE 9
-Create a new array called carsForRent containing all the cars from the previous exercise.
-*/
-
-/* WRITE YOUR CODE HERE */
-
-
-
-/* EXERCISE 10
-Remove the first and the last car from the carsForRent array.
-*/
-/* EXERCISE 11
-Print in the console the TYPES of the car variable, of its licensePlate and of the its brand properties.
-*/
-/* EXERCISE 1
-Write a function "area" which receives 2 parameters (l1,l2) and calculates the area of the associated rectangle.
-*/
-
-/* EXERCISE 2
-Write a function "crazySum" which receives two integers. It should return the sum of those two values, but if the two values are the same then it should return their sum multiplied by 3.
-*/
-
-/* EXERCISE 3
-Write a function "crazyDiff" that computes the absolute difference between a given number and 19. 
-It should return triple their absolute difference if
+const dataList=array4.filter((items)=>items.length>4);
+console.log(dataList);
